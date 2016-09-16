@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
-
-
+# Use font-awesome-rails to handle icons management.
+gem "font-awesome-rails"
 # Use acts_as_votable to enable likes and following for our users
 gem 'acts_as_votable'
 # Use bootstrap-sass as CSS framework.
