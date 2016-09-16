@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :tweets
   root 'page#feed'
 
   devise_for :users
