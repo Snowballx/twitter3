@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
+
+
+# Use acts_as_votable to enable likes and following for our users
+gem 'acts_as_votable'
 # Use bootstrap-sass as CSS framework.
 gem 'bootstrap-sass', '~> 3.3.6'
 # Use Devise as out User management gem
